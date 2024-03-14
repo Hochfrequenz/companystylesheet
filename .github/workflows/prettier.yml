@@ -30,4 +30,3 @@ jobs:
           stylelint: true
           stylelint_extensions: css,sass,scss
           prettier_args: --ignore-path .prettierignore
-          stylelint_dir: css/
