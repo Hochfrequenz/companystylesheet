@@ -19,6 +19,7 @@ jobs:
         run: |
           npm install prettier
           npm install stylelint
+          npm install stylelint-config-standard
       - name: Run linters
         uses: wearerequired/lint-action@v2
         with:
