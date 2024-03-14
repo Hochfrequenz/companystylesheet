@@ -1,105 +1,73 @@
 /* Source:
 https://hochfrequenz.sharepoint.de/:p:/s/Allgemeines/EVJvK5m2e5JGsA3D7D7ikJkBcc6NQsZ2eEAfTwuYuqV8ZA?e=at5VGY
  */
-.primaer_background {
+.primaer-background {
   background-color: rgb(122, 171, 138);
 }
 
-.primaer_schatten_background {
+.primaer-schatten-background {
   background-color: rgb(122, 171, 138);
 }
 
-.weiss_background {
+.weiss-background {
   background-color: rgb(243, 241, 246);
 }
 
-.stoerer1_background {
+.stoerer1-background {
   /* Störer farbe 1*/
   background-color: rgb(233, 76, 116);
 }
 
-.stoerer2_background {
+.stoerer2-background {
   /* Störer farbe 2*/
   background-color: rgb(112, 181, 44);
 }
 
-.rose_background {
+.rose-background {
   background-color: rgb(204, 169, 171);
 }
 
-.rose_schatten_background {
+.rose-schatten-background {
   background-color: rgb(187, 146, 142);
 }
 
-.gelb_background {
+.gelb-background {
   background-color: rgb(207, 185, 134);
 }
 
-.gelb_schatten_background {
+.gelb-schatten-background {
   background-color: rgb(183, 157, 117);
 }
 
-.blau_background {
+.blau-background {
   background-color: rgb(122, 141, 161);
 }
 
-.blau_schatten_background {
+.blau-schatten-background {
   background-color: rgb(94, 122, 151);
 }
 
-.tuerkis_background {
+.tuerkis-background {
   background-color: rgb(173, 201, 196);
 }
 
-.tuerkis_schatten_background {
+.tuerkis-schatten-background {
   background-color: rgb(145, 169, 167);
 }
 
-.grau_background {
+.grau-background {
   background-color: rgb(177, 180, 177);
 }
 
-.grau_schatten_background {
+.grau-schatten-background {
   background-color: rgb(159, 160, 156);
 }
 
-@font-face {
-  font-family: "Yanone Kaffeesatz";
-  src: url("../fonts/YanoneKaffeesatzTTF/YanoneKaffeesatz-Regular.ttf")
-    format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Yanone Kaffeesatz";
-  src: url("../fonts/YanoneKaffeesatzTTF/YanoneKaffeesatz-Bold.ttf")
-    format("truetype");
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Roboto Condensed";
-  src: url("../fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf")
-    format("truetype");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Roboto Condensed";
-  src: url("../fonts/Roboto_Condensed/RobotoCondensed-Bold.ttf")
-    format("truetype");
-  font-weight: 700;
-  font-style: normal;
-}
-
-.roboto_condensed {
+.roboto-condensed {
   font-family: "Roboto Condensed", sans-serif;
 }
 
-.yanone_kaffeesatz {
+.yanone-kaffeesatz {
   font-family: "Yanone Kaffeesatz", sans-serif;
 }
 
