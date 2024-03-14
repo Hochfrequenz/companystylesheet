@@ -1,4 +1,4 @@
-name: Prettier
+name: Linter and Formatting
 on:
   push:
     branches:
