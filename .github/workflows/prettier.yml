@@ -16,7 +16,9 @@ jobs:
         with:
           node-version: 14
       - name: Install Node.js dependencies
-        run: npm install prettier
+        run: |
+          npm install prettier
+          npm install stylelint
       - name: Run linters
         uses: wearerequired/lint-action@v2
         with:
