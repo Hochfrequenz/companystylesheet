@@ -1,5 +1,9 @@
 name: Prettier
-on: pull_request
+on:
+  push:
+    branches:
+      - main
+  pull_request: {}
 jobs:
   run-linters:
     name: Run Prettier and Autofix
@@ -20,5 +24,6 @@ jobs:
           eslint: false
           prettier: true
           auto_fix: true
+          stylelint: true
           prettier_args: --ignore-path .prettierignore
           eslint_args: --ignore-path .eslintignore
