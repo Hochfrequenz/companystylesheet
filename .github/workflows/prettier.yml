@@ -29,4 +29,3 @@ jobs:
           auto_fix: true
           stylelint: true
           prettier_args: --ignore-path .prettierignore
-          eslint_args: --ignore-path .eslintignore
