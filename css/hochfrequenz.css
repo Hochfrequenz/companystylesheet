@@ -62,3 +62,51 @@ https://hochfrequenz.sharepoint.de/:p:/s/Allgemeines/EVJvK5m2e5JGsA3D7D7ikJkBcc6
 .grau_schatten_background {
   background-color: rgb(159, 160, 156);
 }
+
+@font-face {
+  font-family: "Yanone Kaffeesatz";
+  src: url("../fonts/YanoneKaffeesatzTTF/YanoneKaffeesatz-Regular.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Yanone Kaffeesatz";
+  src: url("../fonts/YanoneKaffeesatzTTF/YanoneKaffeesatz-Bold.ttf")
+    format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url("../fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url("../fonts/Roboto_Condensed/RobotoCondensed-Bold.ttf")
+    format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto_condensed {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.yanone_kaffeesatz {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+.ueberschrift {
+  font-family: "Yanone Kaffeesatz Bold", sans-serif;
+}
+
+.fliesstext {
+  font-family: "Roboto Condensed", sans-serif;
+}
