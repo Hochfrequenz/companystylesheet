@@ -28,5 +28,6 @@ jobs:
           prettier: true
           auto_fix: true
           stylelint: true
+          stylelint_args: -f json
           prettier_args: --ignore-path .prettierignore
           stylelint_dir: css/
