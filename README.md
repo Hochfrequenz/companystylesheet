@@ -1,6 +1,6 @@
 # companystylesheet - css 😉
 
-This repository contains CSS which can be used to style things with the Hochfrequenz Corparate Design.
+This repository contains CSS which can be used to style things with the Hochfrequenz Corporate Design.
 Add this repository as a submodule to your frontend project.
 Don't forget to checkout submodules in your CI/CD.
 
