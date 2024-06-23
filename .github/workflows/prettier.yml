@@ -20,16 +20,9 @@ jobs:
           npm install prettier
           npm install stylelint
           npm install stylelint-config-standard
-      - name: Run linters
-        uses: wearerequired/lint-action@v2
-        with:
-          github_token: "${{ secrets.github_token }}"
-          eslint: false
-          prettier: true
-          auto_fix: true
-          # stylelint: false # use separate step instead
-          # stylelint_extensions: css,sass,scss # use separate step instead
-          prettier_args: --ignore-path .prettierignore
+      - name: Run Prettier
+        run: npx prettier --check
+
       - name: Run stylelint with reviewdog
         uses: reviewdog/action-stylelint@v1.22.1
         with:
