@@ -12,3 +12,17 @@ Don't forget to checkout submodules in your CI/CD.
     # https://github.com/Hochfrequenz/your-repository/settings/secrets/actions/CSS_SUBMODULE_ACCESS_TOKEN
     submodules: "recursive"
 ```
+
+## Fonts
+A main reason to use this submodule may be, that it comes with the `.ttf` font files for both Roboto Condensed and Yanone Kaffeesatz.
+Include the fonts like this:
+```css
+@font-face {
+    font-family: "Yanone Kaffeesatz";
+    src: url(path/to/submodule/fonts/YanoneKaffeesatzTTF/YanoneKaffeesatz-Regular.ttf);
+}
+@font-face {
+    font-family: "Roboto Condensed";
+    src: url(path/to/submodule/fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf.ttf);
+}
+```
