@@ -17,15 +17,16 @@
   --grell-gelb: #e5bd5c;
 
   /* Pinks */
-  --pastel-rose: #fed7e7;
+  --pastel-rose: #f4e0e1;
   --grell-rose: #ebbec1;
 
   /* Turquoise */
   --pastel-tuerkis: #d4ede8;
-  --grell-tuerkis: #abcdcd;
+  --grell-tuerkis: #abdcd3;
 
   /* Neutral Colors */
   --neutral-grau: #e7e6e5;
+  --neutral-grau-2: #eaece9;
   --grell-grau: #c4cac1;
 }
 
