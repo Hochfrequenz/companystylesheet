@@ -16,16 +16,18 @@
   --pastel-gelb: #f4e2b9;
   --grell-gelb: #e5bd5c;
 
-  /* Pinks oben, zweites von links*/
+  /* Pinks oben, zweites von links */
   --pastel-rose: #f4e0e1;
   --grell-rose: #ebbec1;
 
   /* Turquoise oben links */
   --pastel-tuerkis: #d4ede8;
   --grell-tuerkis: #abdcd3;
-/* gruen2 aka "mint", unten links */
---pastel-mint: #c6e7d2;
---grell-mint: #85cb9c;
+
+  /* Grün2 aka "mint", unten links */
+  --pastel-mint: #c6e7d2;
+  --grell-mint: #85cb9c;
+
   /* Neutral Colors */
   --neutral-grau: #e7e6e5;
   --neutral-grau-2: #eaece9;
@@ -79,6 +81,14 @@
 
 .grell-tuerkis-background {
   background-color: var(--grell-tuerkis);
+}
+
+.pastel-mint-background {
+  background-color: var(--pastel-mint);
+}
+
+.grell-mint-background {
+  background-color: var(--grell-mint);
 }
 
 .neutral-grau-background {
