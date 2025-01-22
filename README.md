@@ -13,6 +13,17 @@ Don't forget to checkout submodules in your CI/CD.
     submodules: "recursive"
 ```
 
+## Using Classes and Definitions in an Application.css
+You can re-use the colour definitions or classes from the `hochfrequenz.css` file by importing it into your applications CSS file:
+```css
+@import url("/path/under/which/your/application/serves/hochfrequenz.css");
+/* ... */
+.my_class {
+  background-color: var(--grell-gruen); /* use the colour-definition from hochfrequenz.css here */
+}
+```
+Note that trailing `;` is important.
+
 ## Fonts
 A main reason to use this submodule may be, that it comes with the `.ttf` font files for both Roboto Condensed and Yanone Kaffeesatz.
 Include the fonts like this:
