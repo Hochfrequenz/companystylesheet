@@ -17,6 +17,10 @@ Don't forget to checkout submodules in your CI/CD.
 You can re-use the colour definitions or classes from the `hochfrequenz.css` file by importing it into your applications CSS file:
 ```css
 @import url("/path/under/which/your/application/serves/hochfrequenz.css");
+/* ... */
+.my_class {
+  background-color: var(--grell-gruen); /* use the colour-definition from hochfrequenz.css here */
+}
 ```
 Note that trailing `;` is important.
 
