@@ -29,6 +29,10 @@ A main reason to use this submodule may be, that it comes with the `.ttf` font f
 Include the fonts like this:
 ```css
 @font-face {
+    font-family: "Roboto";
+    src: url(path/to/where/your/application/exposes/the/Roboto-Regular.ttf);
+}
+@font-face {
     font-family: "Yanone Kaffeesatz";
     src: url(path/to/where/your/application/exposes/the/YanoneKaffeesatz-Regular.ttf);
 }
