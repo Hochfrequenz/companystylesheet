@@ -37,7 +37,7 @@
 }
 
 /* Background classes using the variables */
-.pastel-gruen-background {
+.pastell-gruen-background {
   background-color: var(--pastel-gruen);
 }
 
@@ -45,7 +45,7 @@
   background-color: var(--grell-gruen);
 }
 
-.pastel-blau-background {
+.pastell-blau-background {
   background-color: var(--pastel-blau);
 }
 
@@ -53,7 +53,7 @@
   background-color: var(--grell-blau);
 }
 
-.pastel-rot-background {
+.pastell-rot-background {
   background-color: var(--pastel-rot);
 }
 
@@ -61,7 +61,7 @@
   background-color: var(--grell-rot);
 }
 
-.pastel-gelb-background {
+.pastell-gelb-background {
   background-color: var(--pastel-gelb);
 }
 
@@ -69,7 +69,7 @@
   background-color: var(--grell-gelb);
 }
 
-.pastel-rose-background {
+.pastell-rose-background {
   background-color: var(--pastel-rose);
 }
 
@@ -77,7 +77,7 @@
   background-color: var(--grell-rose);
 }
 
-.pastel-tuerkis-background {
+.pastell-tuerkis-background {
   background-color: var(--pastel-tuerkis);
 }
 
@@ -85,7 +85,7 @@
   background-color: var(--grell-tuerkis);
 }
 
-.pastel-mint-background {
+.pastell-mint-background {
   background-color: var(--pastel-mint);
 }
 
