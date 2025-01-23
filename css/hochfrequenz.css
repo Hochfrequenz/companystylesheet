@@ -1,31 +1,31 @@
 /* Define colors as CSS variables in :root */
 :root {
   /* Greens, lind-grün, oben rechts */
-  --pastel-gruen: #d5f4b9;
+  --pastell-gruen: #d5f4b9;
   --grell-gruen: #8de040;
 
   /* Blues, unten, zweites von rechts */
-  --pastel-blau: #c2cee9;
+  --pastell-blau: #c2cee9;
   --grell-blau: #8ba2d7;
 
   /* Reds, unten rechts */
-  --pastel-rot: #f4e0e1;
+  --pastell-rot: #f4e0e1;
   --grell-rot: #ff569c;
 
   /* Yellows, unten, zweites von links */
-  --pastel-gelb: #f4e2b9;
+  --pastell-gelb: #f4e2b9;
   --grell-gelb: #e5bd5c;
 
   /* Pinks oben, zweites von links */
-  --pastel-rose: #f4e0e1;
+  --pastell-rose: #f4e0e1;
   --grell-rose: #ebbec1;
 
   /* Turquoise oben links */
-  --pastel-tuerkis: #d4ede8;
+  --pastell-tuerkis: #d4ede8;
   --grell-tuerkis: #abdcd3;
 
   /* Grün2 aka "mint", unten links */
-  --pastel-mint: #c6e7d2;
+  --pastell-mint: #c6e7d2;
   --grell-mint: #85cb9c;
 
   /* Neutral Colors */
@@ -37,7 +37,7 @@
 }
 
 /* Background classes using the variables */
-.pastel-gruen-background {
+.pastell-gruen-background {
   background-color: var(--pastel-gruen);
 }
 
@@ -45,7 +45,7 @@
   background-color: var(--grell-gruen);
 }
 
-.pastel-blau-background {
+.pastell-blau-background {
   background-color: var(--pastel-blau);
 }
 
@@ -53,7 +53,7 @@
   background-color: var(--grell-blau);
 }
 
-.pastel-rot-background {
+.pastell-rot-background {
   background-color: var(--pastel-rot);
 }
 
@@ -61,7 +61,7 @@
   background-color: var(--grell-rot);
 }
 
-.pastel-gelb-background {
+.pastell-gelb-background {
   background-color: var(--pastel-gelb);
 }
 
@@ -69,7 +69,7 @@
   background-color: var(--grell-gelb);
 }
 
-.pastel-rose-background {
+.pastell-rose-background {
   background-color: var(--pastel-rose);
 }
 
@@ -77,7 +77,7 @@
   background-color: var(--grell-rose);
 }
 
-.pastel-tuerkis-background {
+.pastell-tuerkis-background {
   background-color: var(--pastel-tuerkis);
 }
 
@@ -85,7 +85,7 @@
   background-color: var(--grell-tuerkis);
 }
 
-.pastel-mint-background {
+.pastell-mint-background {
   background-color: var(--pastel-mint);
 }
 
