@@ -30,10 +30,10 @@ Include the fonts like this:
 ```css
 @font-face {
     font-family: "Yanone Kaffeesatz";
-    src: url(path/to/submodule/fonts/YanoneKaffeesatzTTF/YanoneKaffeesatz-Regular.ttf);
+    src: url(path/to/where/your/application/exposes/the/YanoneKaffeesatz-Regular.ttf);
 }
 @font-face {
     font-family: "Roboto Condensed";
-    src: url(path/to/submodule/fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf.ttf);
+    src: url(path/to/where/your/application/exposes/the/Roboto_Condensed-Regular.ttf);
 }
 ```
