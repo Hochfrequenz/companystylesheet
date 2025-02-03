@@ -1,1 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><svg id="Ebene_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 70"><defs><style>.cls-1{fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:4px;}</style></defs><path class="cls-1" d="M26.65,27.02l8.31-8.86"/><path class="cls-1" d="M43.35,26.98l-8.39-8.79"/><path class="cls-1" d="M43.35,42.98l-8.31,8.86"/><path class="cls-1" d="M26.65,43.02l8.39,8.79"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 70">
+    <defs>
+        <style>.cls-1{fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:4px;}</style>
+    </defs>
+    <path class="cls-1" d="M26.65,27.02l8.31-8.86"/>
+    <path class="cls-1" d="M43.35,26.98l-8.39-8.79"/>
+    <path class="cls-1" d="M43.35,42.98l-8.31,8.86"/>
+    <path class="cls-1" d="M26.65,43.02l8.39,8.79"/>
+</svg>

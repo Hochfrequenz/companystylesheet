@@ -1,1 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><svg id="Ebene_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 70"><defs><style>.cls-1{fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:4px;}</style></defs><circle class="cls-1" cx="35" cy="35" r="21.75"/><path class="cls-1" d="M35,44.86v-13.72"/><path class="cls-1" d="M31.75,31.14h6.5"/><path class="cls-1" d="M31.75,44.86h6.5"/><circle cx="35" cy="23.85" r="2.71"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 70">
+    <defs>
+        <style>.cls-1{fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:4px;}</style>
+    </defs>
+    <circle class="cls-1" cx="35" cy="35" r="21.75"/>
+    <path class="cls-1" d="M35,44.86v-13.72"/>
+    <path class="cls-1" d="M31.75,31.14h6.5"/>
+    <path class="cls-1" d="M31.75,44.86h6.5"/>
+    <circle cx="35" cy="23.85" r="2.71"/>
+</svg>
