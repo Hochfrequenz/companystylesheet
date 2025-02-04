@@ -1,10 +1,53 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg id="Ebene_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 70">
-    <defs>
-        <style>.cls-1{fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:4px;}</style>
-    </defs>
-    <path class="cls-1" d="M26.65,27.02l8.31-8.86"/>
-    <path class="cls-1" d="M43.35,26.98l-8.39-8.79"/>
-    <path class="cls-1" d="M43.35,42.98l-8.31,8.86"/>
-    <path class="cls-1" d="M26.65,43.02l8.39,8.79"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Ebene_2"
+   viewBox="0 0 20.700001 37.68"
+   version="1.1"
+   sodipodi:docname="updown.svg"
+   width="20.700001"
+   height="37.68"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="12.642857"
+     inkscape:cx="10.361582"
+     inkscape:cy="18.864407"
+     inkscape:window-width="1920"
+     inkscape:window-height="1129"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Ebene_2" />
+  <defs
+     id="defs1">
+    <style
+       id="style1">.cls-1{fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:4px;}</style>
+  </defs>
+  <path
+     class="cls-1"
+     d="M 2,10.86 10.31,2"
+     id="path1" />
+  <path
+     class="cls-1"
+     d="M 18.7,10.82 10.31,2.03"
+     id="path2" />
+  <path
+     class="cls-1"
+     d="m 18.7,26.82 -8.31,8.86"
+     id="path3" />
+  <path
+     class="cls-1"
+     d="m 2,26.86 8.39,8.79"
+     id="path4" />
 </svg>
