@@ -197,3 +197,19 @@ https://hochfrequenz.sharepoint.de/:p:/s/Allgemeines/EVJvK5m2e5JGsA3D7D7ikJkBcc6
 .fliesstext {
   font-family: 'Roboto Condensed', sans-serif;
 }
+
+.hf-icon-herz{
+  background-image: url('data:image/svg+xml,<%3Fxml version="1.0" encoding="UTF-8" standalone="no"%3F><svg id="Ebene_2" viewBox="0 0 43.759998 42.867897" version="1.1" sodipodi:docname="herz.svg" width="43.759998" height="42.867897" inkscape:version="1.4 (86a8ad7, 2024-10-11)" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview id="namedview3" pagecolor="%23505050" bordercolor="%23eeeeee" borderopacity="1" inkscape:showpageshadow="0" inkscape:pageopacity="0" inkscape:pagecheckerboard="0" inkscape:deskcolor="%23505050" inkscape:zoom="12.642857" inkscape:cx="21.909605" inkscape:cy="21.474576" inkscape:window-width="1920" inkscape:window-height="1129" inkscape:window-x="-8" inkscape:window-y="-8" inkscape:window-maximized="1" inkscape:current-layer="Ebene_2" /><defs id="defs2"><style id="style1"> .cls-1,.cls-2{fill:none;}.cls-3{clip-path:url(%23clippath-1);}.cls-2{stroke:%23000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:4px;}.cls-4{clip-path:url(%23clippath);} </style><clipPath id="clippath"><rect class="cls-1" x="13.12" y="13.56" width="21.879999" height="42.869999" id="rect1" /></clipPath><clipPath id="clippath-1"><rect class="cls-1" x="35" y="13.56" width="21.879999" height="42.869999" id="rect2" /></clipPath></defs><g class="cls-4" clip-path="url(%23clippath)" id="g2" transform="translate(-13.12,-13.562102)"><path class="cls-2" d="m 35.33,54.44 c 0,0 -22.6,-13.13 -20,-29.7 0.89,-5.67 5.54,-9.47 10.36,-9.16 6.1,0.39 9.3,7.56 9.3,7.56" id="path2" /></g><g class="cls-3" clip-path="url(%23clippath-1)" id="g3" transform="translate(-13.12,-13.562102)"><path class="cls-2" d="m 34.67,54.44 c 0,0 22.6,-13.13 20,-29.7 -0.89,-5.67 -5.54,-9.47 -10.36,-9.16 -6.1,0.39 -9.3,7.56 -9.3,7.56" id="path3" /></g></svg>')
+  
+  /*
+  use like this:
+  <span title="♡" class="hf-icon-heart yourapp-heart-class"></span>
+  with your own css class to size it:
+  .yourapp-heart-class{
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-size: contain;
+   }
+  */
+}
