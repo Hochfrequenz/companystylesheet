@@ -1,1 +1,53 @@
-<?xml version="1.0" encoding="UTF-8"?><svg id="Ebene_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 70"><defs><style>.cls-1{stroke-linejoin:round;}.cls-1,.cls-2{fill:none;stroke:#000;stroke-linecap:round;stroke-width:4px;}.cls-2{stroke-miterlimit:10;}</style></defs><path class="cls-2" d="M37.21,31.49l18.41-18.84"/><path class="cls-2" d="M43.58,11.03l12.04,1.63"/><path class="cls-2" d="M57.52,24.65l-1.91-12"/><path class="cls-1" d="M32.83,19.88s-19.12.05-19.12,0v36.17l35.91-.08v-20.15"/></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Ebene_2"
+   viewBox="0 0 47.810001 49.02"
+   version="1.1"
+   sodipodi:docname="openinnew.svg"
+   width="47.810001"
+   height="49.02"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="12.642857"
+     inkscape:cx="23.333333"
+     inkscape:cy="25.983051"
+     inkscape:window-width="1920"
+     inkscape:window-height="1129"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Ebene_2" />
+  <defs
+     id="defs1">
+    <style
+       id="style1">.cls-1{stroke-linejoin:round;}.cls-1,.cls-2{fill:none;stroke:#000;stroke-linecap:round;stroke-width:4px;}.cls-2{stroke-miterlimit:10;}</style>
+  </defs>
+  <path
+     class="cls-2"
+     d="M 25.5,22.46 43.91,3.62"
+     id="path1" />
+  <path
+     class="cls-2"
+     d="M 31.87,2 43.91,3.63"
+     id="path2" />
+  <path
+     class="cls-2"
+     d="M 45.81,15.62 43.9,3.62"
+     id="path3" />
+  <path
+     class="cls-1"
+     d="m 21.12,10.85 c 0,0 -19.12,0.05 -19.12,0 V 47.02 L 37.91,46.94 V 26.79"
+     id="path4" />
+</svg>
