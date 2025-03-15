@@ -1,0 +1,151 @@
+/* Hochfrequenz Icon System */
+
+/* Base icon styles */
+.hf-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  flex-shrink: 0;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  -webkit-mask-size: contain;
+  background-color: currentColor; /* This allows the icon to inherit text color */
+}
+
+/* Icon size variants */
+.hf-icon-xs {
+  width: 1em;
+  height: 1em;
+}
+
+.hf-icon-sm {
+  width: 1.25em;
+  height: 1.25em;
+}
+
+.hf-icon-md {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.hf-icon-lg {
+  width: 2em;
+  height: 2em;
+}
+
+.hf-icon-xl {
+  width: 2.5em;
+  height: 2.5em;
+}
+
+/* Individual icons */
+.hf-icon-login {
+  mask-image: url('../icons/login.svg');
+  -webkit-mask-image: url('../icons/login.svg');
+}
+
+.hf-icon-logout {
+  mask-image: url('../icons/logout.svg');
+  -webkit-mask-image: url('../icons/logout.svg');
+}
+
+.hf-icon-open-new {
+  mask-image: url('../icons/openinnew.svg');
+  -webkit-mask-image: url('../icons/openinnew.svg');
+}
+
+.hf-icon-up {
+  mask-image: url('../icons/up.svg');
+  -webkit-mask-image: url('../icons/up.svg');
+}
+
+.hf-icon-down {
+  mask-image: url('../icons/down.svg');
+  -webkit-mask-image: url('../icons/down.svg');
+}
+
+.hf-icon-up-down {
+  mask-image: url('../icons/updown.svg');
+  -webkit-mask-image: url('../icons/updown.svg');
+}
+
+.hf-icon-glossar-left {
+  mask-image: url('../icons/glossar_links.svg');
+  -webkit-mask-image: url('../icons/glossar_links.svg');
+}
+
+.hf-icon-glossar-right {
+  mask-image: url('../icons/glossar_rechts.svg');
+  -webkit-mask-image: url('../icons/glossar_rechts.svg');
+}
+
+.hf-icon-check-1 {
+  mask-image: url('../icons/haken1.svg');
+  -webkit-mask-image: url('../icons/haken1.svg');
+}
+
+.hf-icon-check-2 {
+  mask-image: url('../icons/haken2.svg');
+  -webkit-mask-image: url('../icons/haken2.svg');
+}
+
+.hf-icon-check-3 {
+  mask-image: url('../icons/haken3.svg');
+  -webkit-mask-image: url('../icons/haken3.svg');
+}
+
+.hf-icon-heart {
+  mask-image: url('../icons/herz.svg');
+  -webkit-mask-image: url('../icons/herz.svg');
+}
+
+.hf-icon-info {
+  mask-image: url('../icons/info.svg');
+  -webkit-mask-image: url('../icons/info.svg');
+}
+
+.hf-icon-left {
+  mask-image: url('../icons/links.svg');
+  -webkit-mask-image: url('../icons/links.svg');
+}
+
+.hf-icon-download {
+  mask-image: url('../icons/download.svg');
+  -webkit-mask-image: url('../icons/download.svg');
+}
+
+.hf-icon-filter {
+  mask-image: url('../icons/filter.svg');
+  -webkit-mask-image: url('../icons/filter.svg');
+}
+
+.hf-icon-question {
+  mask-image: url('../icons/frage.svg');
+  -webkit-mask-image: url('../icons/frage.svg');
+}
+
+.hf-icon-growing-plant {
+  mask-image: url('../icons/growing_plant.svg');
+  -webkit-mask-image: url('../icons/growing_plant.svg');
+}
+
+/* Optional: Animation utilities */
+.hf-icon-spin {
+  animation: hf-spin 2s linear infinite;
+}
+
+.hf-icon-pulse {
+  animation: hf-spin 1s steps(8) infinite;
+}
+
+@keyframes hf-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} 
