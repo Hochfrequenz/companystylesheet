@@ -1,0 +1,18 @@
+{
+  "name": "companystylesheet",
+  "version": "1.0.0",
+  "description": "This repository contains CSS which can be used to style things with the Hochfrequenz Corporate Design (aka `hochfrequenz.css`). Add this repository as a submodule to your frontend project. Don't forget to checkout submodules in your CI/CD.",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "postcss css/**/*.css --dir build/css",
+    "watch:css": "postcss css/**/*.css --dir build/css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "postcss-cli": "^11.0.1"
+  }
+}
