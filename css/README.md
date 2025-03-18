@@ -11,14 +11,39 @@ It's designed to work seamlessly with Tailwind CSS and provides various customiz
 - Animation utilities
 - Responsive and scalable SVG icons
 
+## Icons
+
+| key                     | purpose/description | image                                               |
+| ----------------------- | :-----------------: | --------------------------------------------------- |
+| `hf-icon-login`         |     Login icon      | ![Login Icon](../icons/login.svg)                   |
+| `hf-icon-logout`        |     Logout icon     | ![Logout Icon](../icons/logout.svg)                 |
+| `hf-icon-open-new`      | Open in new window  | ![Open New Icon](../icons/openinnew.svg)            |
+| `hf-icon-up`            |      Up arrow       | ![Up Arrow Icon](../icons/up.svg)                   |
+| `hf-icon-down`          |     Down arrow      | ![Down Arrow Icon](../icons/down.svg)               |
+| `hf-icon-up-down`       | Up and down arrows  | ![Up Down Arrows Icon](../icons/updown.svg)         |
+| `hf-icon-glossar-left`  |    Glossary left    | ![Glossary Left Icon](../icons/glossar_links.svg)   |
+| `hf-icon-glossar-right` |   Glossary right    | ![Glossary Right Icon](../icons/glossar_rechts.svg) |
+| `hf-icon-check-1`       |  Checkmark style 1  | ![Checkmark 1 Icon](../icons/haken1.svg)            |
+| `hf-icon-check-2`       |  Checkmark style 2  | ![Checkmark 2 Icon](../icons/haken2.svg)            |
+| `hf-icon-check-3`       |  Checkmark style 3  | ![Checkmark 3 Icon](../icons/haken3.svg)            |
+| `hf-icon-heart`         |     Heart icon      | ![Heart Icon](../icons/herz.svg)                    |
+| `hf-icon-info`          |  Information icon   | ![Info Icon](../icons/info.svg)                     |
+| `hf-icon-left`          |     Left arrow      | ![Left Arrow Icon](../icons/links.svg)              |
+| `hf-icon-download`      |    Download icon    | ![Download Icon](../icons/download.svg)             |
+| `hf-icon-filter`        |     Filter icon     | ![Filter Icon](../icons/filter.svg)                 |
+| `hf-icon-question`      |    Question mark    | ![Question Icon](../icons/frage.svg)                |
+| `hf-icon-growing-plant` | Growing plant icon  | ![Growing Plant Icon](../icons/growing_plant.svg)   |
+
 ## Usage
 
 1. Include the `icons.css` file in your project:
+
 ```html
 <link rel="stylesheet" href="path/to/icons.css">
 ```
 
-2. Use icons in your HTML with the following pattern:
+1. Use icons in your HTML with the following pattern:
+
 ```html
 <span class="hf-icon-[name] text-[color]"></span>
 ```
