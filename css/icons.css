@@ -9,7 +9,7 @@
   mask-repeat: no-repeat;
   mask-position: center;
   mask-size: contain;
-  -webkit-mask-repeat: no-repeat;
+  background-color: currentcolor; /* This allows the icon to inherit text color */
   -webkit-mask-position: center;
   -webkit-mask-size: contain;
   background-color: currentColor; /* This allows the icon to inherit text color */
