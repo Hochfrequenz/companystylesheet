@@ -113,6 +113,7 @@ The icons inherit their color from the text color, so you can use any Tailwind t
 Here are some common use cases and combinations of our icon system:
 
 ### Navigation Elements
+
 ```html
 <!-- Navigation with icons -->
 <nav>
@@ -123,6 +124,7 @@ Here are some common use cases and combinations of our icon system:
 ```
 
 ### Interactive Elements
+
 ```html
 <!-- Button with icon -->
 <button class="bg-blue-500 p-2 rounded">
@@ -136,6 +138,7 @@ Here are some common use cases and combinations of our icon system:
 ```
 
 ### Information Display
+
 ```html
 <!-- Info card with icon -->
 <div class="border p-4 rounded">
@@ -152,6 +155,7 @@ Here are some common use cases and combinations of our icon system:
 ```
 
 ### Size Comparison
+
 ```html
 <div class="space-x-4">
   <span class="hf-icon-growing-plant hf-icon-xs text-green-500"></span>
@@ -163,6 +167,7 @@ Here are some common use cases and combinations of our icon system:
 ```
 
 ### Interactive States
+
 ```html
 <!-- Hover effects -->
 <span class="hf-icon-heart text-gray-400 hover:text-red-500 transition-colors"></span>
@@ -176,4 +181,74 @@ Here are some common use cases and combinations of our icon system:
 1. Always include the base `hf-icon` class along with the specific icon class
 2. Use semantic color names from your design system
 3. Choose appropriate icon sizes based on their context
-4. Consider using animations sparingly to avoid visual distraction 
+4. Consider using animations sparingly to avoid visual distraction
+
+## Installation and Build Process
+
+### Prerequisites
+
+- Node.js (version 14 or higher)
+- npm (comes with Node.js)
+
+### Installation
+
+Install the dependencies:
+
+```bash
+npm install
+```
+
+This will install the following development dependencies:
+
+- postcss (^8.5.3)
+- postcss-cli (^11.0.1)
+- autoprefixer (^10.4.21)
+
+### Building CSS Files
+
+The project uses PostCSS to process and optimize CSS files. The following npm scripts are available:
+
+#### Build CSS once
+
+```bash
+npm run build:css
+```
+
+This will process all CSS files in the `css/` directory and output them to the `build/css/` directory.
+
+#### Watch mode for development
+
+```bash
+npm run watch:css
+```
+
+This will watch for changes in your CSS files and automatically rebuild them when changes are detected.
+
+### Browser Support
+
+The CSS is processed with Autoprefixer to ensure compatibility with:
+
+- Browsers with more than 1% global usage
+- The last 2 versions of each browser
+- Firefox ESR (Extended Support Release)
+- Active browsers (updated in the last 24 months)
+
+### Output
+
+After building, you can find the processed CSS files in the `build/css/` directory. These files are optimized and ready for production use.
+
+### Integration
+
+To use the compiled CSS in your project, include the built CSS file from the `build/css/` directory:
+
+```html
+<link rel="stylesheet" href="path/to/build/css/icons.css">
+```
+
+### Development Workflow
+
+1. Install dependencies with `npm install`
+2. Run `npm run watch:css` during development
+3. Use `npm run build:css` for production builds
+
+Remember to commit and push both your changes and the submodule reference when you're done making changes.
