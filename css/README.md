@@ -3,6 +3,36 @@
 This icon system provides a flexible and easy-to-use way to implement SVG icons in your frontend applications.
 It's designed to work seamlessly with Tailwind CSS and provides various customization options.
 
+## Table of Contents
+
+- [Hochfrequenz Icon System](#hochfrequenz-icon-system)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+  - [Icons](#icons)
+  - [Usage](#usage)
+    - [Example Usage](#example-usage)
+  - [Available Icons](#available-icons)
+  - [Size Variants](#size-variants)
+  - [Animation Classes](#animation-classes)
+  - [Customization with Tailwind](#customization-with-tailwind)
+  - [Showcase Examples](#showcase-examples)
+    - [Navigation Elements](#navigation-elements)
+    - [Interactive Elements](#interactive-elements)
+    - [Information Display](#information-display)
+    - [Size Comparison](#size-comparison)
+    - [Interactive States](#interactive-states)
+  - [Best Practices](#best-practices)
+  - [Installation and Build Process](#installation-and-build-process)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+    - [Building CSS Files](#building-css-files)
+      - [Build CSS once](#build-css-once)
+      - [Watch mode for development](#watch-mode-for-development)
+    - [Browser Support](#browser-support)
+    - [Output](#output)
+    - [Integration](#integration)
+    - [Development Workflow](#development-workflow)
+
 ## Features
 
 - Easy color customization using Tailwind's text colors
