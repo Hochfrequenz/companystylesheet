@@ -1,0 +1,215 @@
+/* Define colors as CSS variables in :root */
+:root {
+  /* Greens, lind-grün, oben rechts */
+  --pastell-gruen: #d5f4b9;
+  --grell-gruen: #8de040;
+  --dunkel-gruen: #4fbd57;
+
+  /* Blues, unten, zweites von rechts */
+  --pastell-blau: #c2cee9;
+  --grell-blau: #8ba2d7;
+  --dunkel-blau: #537096;
+
+  /* Reds, unten rechts */
+  --pastell-rot: #f4e0e1;
+  --grell-rot: #ff569c;
+  --dunkel-rot: #d13166;
+
+  /* Yellows, unten, zweites von links */
+  --pastell-gelb: #f4e2b9;
+  --grell-gelb: #e5bd5c;
+  --dunkel-gelb: #ae8a1d;
+
+  /* Pinks oben, zweites von links */
+  --pastell-rose: #f4e0e1;
+  --grell-rose: #ebbec1;
+  --dunkel-rose: #cf939a;
+
+  /* Turquoise oben links */
+  --pastell-tuerkis: #d4ede8;
+  --grell-tuerkis: #abdcd3;
+  --dunkel-tuerkis: #73b2a5;
+
+  /* Grün2 aka "mint", unten links */
+  --pastell-mint: #c6e7d2;
+  --grell-mint: #85cb9c;
+  --dunkel-mint: #549976;
+
+  /* Neutral Colors */
+  --neutral-grau: #e7e6e5;
+  --off-white: #e7e6e5;
+  --neutral-grau-2: #eaece9;
+  --grell-grau: #c4cac1;
+  --weiches-schwarz: #25141d;
+}
+
+/* Background classes using the variables */
+.pastell-gruen-background {
+  background-color: var(--pastel-gruen);
+}
+
+.grell-gruen-background {
+  background-color: var(--grell-gruen);
+}
+
+.pastell-blau-background {
+  background-color: var(--pastel-blau);
+}
+
+.grell-blau-background {
+  background-color: var(--grell-blau);
+}
+
+.pastell-rot-background {
+  background-color: var(--pastel-rot);
+}
+
+.grell-rot-background {
+  background-color: var(--grell-rot);
+}
+
+.pastell-gelb-background {
+  background-color: var(--pastel-gelb);
+}
+
+.grell-gelb-background {
+  background-color: var(--grell-gelb);
+}
+
+.pastell-rose-background {
+  background-color: var(--pastel-rose);
+}
+
+.grell-rose-background {
+  background-color: var(--grell-rose);
+}
+
+.pastell-tuerkis-background {
+  background-color: var(--pastel-tuerkis);
+}
+
+.grell-tuerkis-background {
+  background-color: var(--grell-tuerkis);
+}
+
+.pastell-mint-background {
+  background-color: var(--pastel-mint);
+}
+
+.grell-mint-background {
+  background-color: var(--grell-mint);
+}
+
+.neutral-grau-background {
+  background-color: var(--neutral-grau);
+}
+
+.grell-grau-background {
+  background-color: var(--grell-grau);
+}
+
+/* Source:
+https://hochfrequenz.sharepoint.de/:p:/s/Allgemeines/EVJvK5m2e5JGsA3D7D7ikJkBcc6NQsZ2eEAfTwuYuqV8ZA?e=at5VGY
+ */
+.primaer-background {
+  background-color: rgb(122 171 138);
+}
+
+.primaer-schatten-background {
+  background-color: rgb(102 149 128);
+}
+
+.weiss-background {
+  background-color: rgb(243 241 246);
+}
+
+.stoerer1-background {
+  /* Störer farbe 1 */
+  background-color: rgb(233 76 116);
+}
+
+.stoerer2-background {
+  /* Störer farbe 2 */
+  background-color: rgb(112 181 44);
+}
+
+.rose-background {
+  background-color: rgb(204 169 171);
+}
+
+.rose-schatten-background {
+  background-color: rgb(187 146 142);
+}
+
+.gelb-background {
+  background-color: rgb(207 185 134);
+}
+
+.gelb-schatten-background {
+  background-color: rgb(183 157 117);
+}
+
+.blau-background {
+  background-color: rgb(122 141 161);
+}
+
+.blau-schatten-background {
+  background-color: rgb(94 122 151);
+}
+
+.tuerkis-background {
+  background-color: rgb(173 201 196);
+}
+
+.tuerkis-schatten-background {
+  background-color: rgb(145 169 167);
+}
+
+.grau-background {
+  background-color: rgb(177 180 177);
+}
+
+.grau-schatten-background {
+  background-color: rgb(159 160 156);
+}
+
+.roboto-condensed {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.roboto {
+  font-family: Roboto, sans-serif;
+}
+
+.yanone-kaffeesatz {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+/* Font used for "Unser Marktplatz" */
+.dongle {
+  font-family: Dongle, sans-serif;
+}
+
+.ueberschrift {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.fliesstext {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.hf-icon-herz{
+  background-image: url('data:image/svg+xml,<%3Fxml version="1.0" encoding="UTF-8" standalone="no"%3F><svg id="Ebene_2" viewBox="0 0 43.759998 42.867897" version="1.1" sodipodi:docname="herz.svg" width="43.759998" height="42.867897" inkscape:version="1.4 (86a8ad7, 2024-10-11)" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview id="namedview3" pagecolor="%23505050" bordercolor="%23eeeeee" borderopacity="1" inkscape:showpageshadow="0" inkscape:pageopacity="0" inkscape:pagecheckerboard="0" inkscape:deskcolor="%23505050" inkscape:zoom="12.642857" inkscape:cx="21.909605" inkscape:cy="21.474576" inkscape:window-width="1920" inkscape:window-height="1129" inkscape:window-x="-8" inkscape:window-y="-8" inkscape:window-maximized="1" inkscape:current-layer="Ebene_2" /><defs id="defs2"><style id="style1"> .cls-1,.cls-2{fill:none;}.cls-3{clip-path:url(%23clippath-1);}.cls-2{stroke:%23000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:4px;}.cls-4{clip-path:url(%23clippath);} </style><clipPath id="clippath"><rect class="cls-1" x="13.12" y="13.56" width="21.879999" height="42.869999" id="rect1" /></clipPath><clipPath id="clippath-1"><rect class="cls-1" x="35" y="13.56" width="21.879999" height="42.869999" id="rect2" /></clipPath></defs><g class="cls-4" clip-path="url(%23clippath)" id="g2" transform="translate(-13.12,-13.562102)"><path class="cls-2" d="m 35.33,54.44 c 0,0 -22.6,-13.13 -20,-29.7 0.89,-5.67 5.54,-9.47 10.36,-9.16 6.1,0.39 9.3,7.56 9.3,7.56" id="path2" /></g><g class="cls-3" clip-path="url(%23clippath-1)" id="g3" transform="translate(-13.12,-13.562102)"><path class="cls-2" d="m 34.67,54.44 c 0,0 22.6,-13.13 20,-29.7 -0.89,-5.67 -5.54,-9.47 -10.36,-9.16 -6.1,0.39 -9.3,7.56 -9.3,7.56" id="path3" /></g></svg>')
+  
+  /*
+  use like this:
+  <span title="♡" class="hf-icon-heart yourapp-heart-class"></span>
+  with your own css class to size it:
+  .yourapp-heart-class{
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-size: contain;
+   }
+  */
+}
