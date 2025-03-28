@@ -1,0 +1,1 @@
+export * from './icon-login/icon-login.component'; 
