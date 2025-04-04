@@ -1,1 +1,1 @@
-export * from './icon-login/icon-login.component'; 
+export { IconLoginComponent } from './icon-login/icon-login.component'; 
