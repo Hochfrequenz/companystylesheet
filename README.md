@@ -8,6 +8,9 @@ Don't forget to checkout submodules in your CI/CD.
 
 - [companystylesheet - css 😉](#companystylesheet---css-)
   - [Table of Contents](#table-of-contents)
+  - [Optimization of SVG Icons](#optimization-of-svg-icons)
+    - [Install svgo](#install-svgo)
+    - [Optimize SVG Icons](#optimize-svg-icons)
   - [Installation](#installation)
     - [Submodule Setup](#submodule-setup)
   - [Using Classes and Definitions](#using-classes-and-definitions)
@@ -36,6 +39,24 @@ Don't forget to checkout submodules in your CI/CD.
       - [Output](#output)
       - [Integration](#integration)
       - [Development Workflow](#development-workflow)
+
+## Optimization of SVG Icons
+
+The SVG icons are optimized with [svgo](https://github.com/svg/svgo).
+
+### Install svgo
+
+```bash
+npm install -g svgo
+```
+
+### Optimize SVG Icons
+
+To optimize the SVG icons, run the following command:
+
+```bash
+svgo -f icons
+```
 
 ## Installation
 
