@@ -43,11 +43,14 @@
   --weiches-schwarz: #25141d;
 
   /* Semantic Colors for Diff/Comparison and Boolean States */
-  --color-positive: #b9cf85;
-  --color-positive-dark: #44541f;
+  --color-positive: #679c1d;
   --color-negative: #ff7779;
+  --color-neutral: #eeb663;
+  --color-positive-light: #b9cf85;
+  --color-negative-light: #ffaaac;
+  --color-neutral-light: #ffd495;
+  --color-positive-dark: #44541f;
   --color-negative-dark: #6d292b;
-  --color-neutral: #ffd495;
   --color-neutral-dark: #68491a;
 }
 
