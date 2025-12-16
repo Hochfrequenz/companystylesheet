@@ -146,7 +146,7 @@ It's designed to work seamlessly with Tailwind CSS and provides various customiz
 1. Include the `icons.css` file in your project:
 
 ```html
-<link rel="stylesheet" href="path/to/icons.css">
+<link rel="stylesheet" href="path/to/icons.css" />
 ```
 
 2. Use icons in your HTML with the following pattern:
@@ -308,7 +308,7 @@ After building, you can find the processed CSS files in the `build/css/` directo
 To use the compiled CSS in your project, include the built CSS file from the `build/css/` directory:
 
 ```html
-<link rel="stylesheet" href="path/to/build/css/icons.css">
+<link rel="stylesheet" href="path/to/build/css/icons.css" />
 ```
 
 #### Development Workflow
