@@ -30,7 +30,7 @@ jobs:
         run: npm run build:css
 
       - name: Publish to NPM
-        run: npm publish --access public
+        run: npm publish --provenance --access public
         env:
           # Granular access token with read and write access to the @hochfrequenz organization
           # Expires on Tuesday, October 13, 2026
