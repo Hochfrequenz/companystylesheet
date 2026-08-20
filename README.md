@@ -12,6 +12,8 @@ The design values (colours, fonts) are defined once as **design tokens** in the 
 
 ### Building the tokens
 
+Requires **Node.js >= 18** (Style Dictionary v4).
+
 ```bash
 npm install
 npm run build:tokens   # regenerate build/tokens/ from tokens/
