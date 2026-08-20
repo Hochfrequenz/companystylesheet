@@ -4,6 +4,66 @@ This repository contains CSS which can be used to style things with the Hochfreq
 Add this repository as a submodule to your frontend project.
 Don't forget to checkout submodules in your CI/CD.
 
+## Design Tokens
+
+The design values (colours, fonts) are defined once as **design tokens** in the [W3C Design Tokens (DTCG)](https://www.designtokens.org/) format under [`tokens/`](tokens/). This is the **single source of truth**. All other formats are generated from it with [Style Dictionary](https://styledictionary.com/).
+
+> This first iteration covers **colour primitives** (the base palette) and **font families**. Semantic/role tokens, the divergent `rgb()` brand colours, and the existing `--color-positive/…` state colours are intentionally out of scope for now — see [#51](https://github.com/Hochfrequenz/companystylesheet/issues/51).
+
+### Building the tokens
+
+Requires **Node.js >= 18** (Style Dictionary v4).
+
+```bash
+npm install
+npm run build:tokens   # regenerate build/tokens/ from tokens/
+```
+
+This generates, under `build/tokens/`:
+
+| Format             | File                        | Consume as                          |
+| ------------------ | --------------------------- | ----------------------------------- |
+| CSS custom props   | `css/variables.css`         | `var(--color-green-bright)`         |
+| SCSS variables     | `scss/_variables.scss`      | `$color-green-bright`               |
+| JS/TS (typed)      | `js/tokens.mjs` + `.d.ts`   | `import { ColorGreenBright } from …`|
+| JSON               | `json/tokens.json`          | any tooling / Tokens Studio         |
+
+### Using the tokens in a frontend project
+
+The generated artifacts are framework-agnostic, so **Angular, Vue and Svelte all work the same way** — import the CSS globally to get the custom properties, or import the typed JS/TS object when you need values in code.
+
+**CSS custom properties (all frameworks)** — import once, globally:
+
+```css
+/* Angular: styles.css · Vue: main.ts stylesheet · Svelte: app.css */
+@import '@hochfrequenz/companystylesheet/tokens/css';
+
+.cta {
+  background-color: var(--color-green-bright);
+  font-family: var(--font-family-yanone-kaffeesatz);
+}
+```
+
+**Typed tokens in JS/TS (all frameworks):**
+
+```ts
+import { ColorGreenBright, FontFamilyRoboto } from '@hochfrequenz/companystylesheet/tokens/js';
+```
+
+**SCSS variables (Angular/Vue with a SCSS setup):**
+
+```scss
+@import '@hochfrequenz/companystylesheet/tokens/scss';
+
+.cta {
+  background-color: $color-green-bright;
+}
+```
+
+### Figma (planned)
+
+Because the source is DTCG JSON, the [Tokens Studio](https://tokens.studio/) Figma plugin can GitHub-sync against `tokens/`, so design and code share the same source of truth. Tracked as a follow-up.
+
 ## Table of Contents
 
 - [companystylesheet - css 😉](#companystylesheet---css-)

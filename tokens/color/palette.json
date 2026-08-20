@@ -1,0 +1,51 @@
+{
+  "color": {
+    "green": {
+      "light": { "$value": "#d5f4b9", "$type": "color", "$description": "Pastel green" },
+      "bright": { "$value": "#8de040", "$type": "color", "$description": "Bright green" },
+      "dark": { "$value": "#4fbd57", "$type": "color", "$description": "Dark green" }
+    },
+    "blue": {
+      "light": { "$value": "#c2cee9", "$type": "color", "$description": "Pastel blue" },
+      "bright": { "$value": "#8ba2d7", "$type": "color", "$description": "Bright blue" },
+      "dark": { "$value": "#537096", "$type": "color", "$description": "Dark blue" }
+    },
+    "red": {
+      "light": { "$value": "#f4e0e1", "$type": "color", "$description": "Pastel red" },
+      "bright": { "$value": "#ff569c", "$type": "color", "$description": "Bright red" },
+      "dark": { "$value": "#d13166", "$type": "color", "$description": "Dark red" }
+    },
+    "yellow": {
+      "light": { "$value": "#f4e2b9", "$type": "color", "$description": "Pastel yellow" },
+      "bright": { "$value": "#e5bd5c", "$type": "color", "$description": "Bright yellow" },
+      "dark": { "$value": "#ae8a1d", "$type": "color", "$description": "Dark yellow" }
+    },
+    "rose": {
+      "light": { "$value": "#f4e0e1", "$type": "color", "$description": "Pastel rose (same value as color.red.light in the source palette)" },
+      "bright": { "$value": "#ebbec1", "$type": "color", "$description": "Bright rose" },
+      "dark": { "$value": "#cf939a", "$type": "color", "$description": "Dark rose" }
+    },
+    "turquoise": {
+      "light": { "$value": "#d4ede8", "$type": "color", "$description": "Pastel turquoise" },
+      "bright": { "$value": "#abdcd3", "$type": "color", "$description": "Bright turquoise" },
+      "dark": { "$value": "#73b2a5", "$type": "color", "$description": "Dark turquoise" }
+    },
+    "mint": {
+      "light": { "$value": "#c6e7d2", "$type": "color", "$description": "Pastel mint" },
+      "bright": { "$value": "#85cb9c", "$type": "color", "$description": "Bright mint" },
+      "dark": { "$value": "#549976", "$type": "color", "$description": "Dark mint" }
+    },
+    "violet": {
+      "light": { "$value": "#d5d1f0", "$type": "color", "$description": "Pastel violet (lila)" },
+      "bright": { "$value": "#aca3e1", "$type": "color", "$description": "Bright violet (lila)" },
+      "dark": { "$value": "#8f84d7", "$type": "color", "$description": "Dark violet (lila)" }
+    },
+    "neutral": {
+      "gray": { "$value": "#e7e6e5", "$type": "color", "$description": "Neutral gray" },
+      "gray-muted": { "$value": "#eaece9", "$type": "color", "$description": "Muted neutral gray" },
+      "gray-bright": { "$value": "#c4cac1", "$type": "color", "$description": "Bright neutral gray" },
+      "off-white": { "$value": "#e7e6e5", "$type": "color", "$description": "Off white (same value as color.neutral.gray in the source palette)" },
+      "soft-black": { "$value": "#25141d", "$type": "color", "$description": "Soft black" }
+    }
+  }
+}

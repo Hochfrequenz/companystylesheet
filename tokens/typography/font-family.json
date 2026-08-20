@@ -1,0 +1,10 @@
+{
+  "font": {
+    "family": {
+      "roboto": { "$value": "Roboto, sans-serif", "$type": "fontFamily", "$description": "Roboto" },
+      "roboto-condensed": { "$value": "'Roboto Condensed', sans-serif", "$type": "fontFamily", "$description": "Roboto Condensed" },
+      "yanone-kaffeesatz": { "$value": "'Yanone Kaffeesatz', sans-serif", "$type": "fontFamily", "$description": "Yanone Kaffeesatz (headings)" },
+      "dongle": { "$value": "Dongle, sans-serif", "$type": "fontFamily", "$description": "Dongle (used for 'Unser Marktplatz')" }
+    }
+  }
+}
