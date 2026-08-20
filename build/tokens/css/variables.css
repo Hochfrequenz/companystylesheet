@@ -1,0 +1,39 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --color-green-light: #d5f4b9; /** Pastel green */
+  --color-green-bright: #8de040; /** Bright green */
+  --color-green-dark: #4fbd57; /** Dark green */
+  --color-blue-light: #c2cee9; /** Pastel blue */
+  --color-blue-bright: #8ba2d7; /** Bright blue */
+  --color-blue-dark: #537096; /** Dark blue */
+  --color-red-light: #f4e0e1; /** Pastel red */
+  --color-red-bright: #ff569c; /** Bright red */
+  --color-red-dark: #d13166; /** Dark red */
+  --color-yellow-light: #f4e2b9; /** Pastel yellow */
+  --color-yellow-bright: #e5bd5c; /** Bright yellow */
+  --color-yellow-dark: #ae8a1d; /** Dark yellow */
+  --color-rose-light: #f4e0e1; /** Pastel rose (same value as color.red.light in the source palette) */
+  --color-rose-bright: #ebbec1; /** Bright rose */
+  --color-rose-dark: #cf939a; /** Dark rose */
+  --color-turquoise-light: #d4ede8; /** Pastel turquoise */
+  --color-turquoise-bright: #abdcd3; /** Bright turquoise */
+  --color-turquoise-dark: #73b2a5; /** Dark turquoise */
+  --color-mint-light: #c6e7d2; /** Pastel mint */
+  --color-mint-bright: #85cb9c; /** Bright mint */
+  --color-mint-dark: #549976; /** Dark mint */
+  --color-violet-light: #d5d1f0; /** Pastel violet (lila) */
+  --color-violet-bright: #aca3e1; /** Bright violet (lila) */
+  --color-violet-dark: #8f84d7; /** Dark violet (lila) */
+  --color-neutral-gray: #e7e6e5; /** Neutral gray */
+  --color-neutral-gray-muted: #eaece9; /** Muted neutral gray */
+  --color-neutral-gray-bright: #c4cac1; /** Bright neutral gray */
+  --color-neutral-off-white: #e7e6e5; /** Off white (same value as color.neutral.gray in the source palette) */
+  --color-neutral-soft-black: #25141d; /** Soft black */
+  --font-family-roboto: Roboto, sans-serif; /** Roboto */
+  --font-family-roboto-condensed: 'Roboto Condensed', sans-serif; /** Roboto Condensed */
+  --font-family-yanone-kaffeesatz: 'Yanone Kaffeesatz', sans-serif; /** Yanone Kaffeesatz (headings) */
+  --font-family-dongle: Dongle, sans-serif; /** Dongle (used for 'Unser Marktplatz') */
+}
